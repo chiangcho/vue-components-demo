@@ -1,11 +1,13 @@
 {
   "name": "my-vue-library",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main":"./dist/my-vue-library.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+     "build-bundle": "vue-cli-service build --target lib --name my-vue-library ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -20,6 +22,13 @@
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
