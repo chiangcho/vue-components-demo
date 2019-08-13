@@ -1,7 +1,10 @@
 // 导入所有组件
-import HelloWorld from './helloworld/index.js'
+import HelloWorld from './helloworld'
 
-const components = [HelloWorld]
+const components = [
+  HelloWorld
+]
+
 const install = function(vue) {
   /* istanbul ignore if */
   if (install.installed) return;
