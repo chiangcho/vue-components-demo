@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "main": "./dist/xcom-components.common.js",
+  "styles": "./dist/xcom-components.css",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -18,16 +19,14 @@
     "@vue/cli-plugin-eslint": "^3.10.0",
     "@vue/cli-service": "^3.10.0",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
+    "dist",
+    "src/components"
   ],
   "eslintConfig": {
     "root": true,
