@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "main": "./dist/xcom-components.common.js",
-  "styles": "./dist/xcom-components.css",
+  "style": "./dist/xcom-components.css",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
