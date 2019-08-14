@@ -72,7 +72,7 @@ npm i F:\git\my-vue-library\xcom-components-0.1.0.tgz
 npm i babel-plugin-component -D
 ```
 
-配置`.babelrc`，在项目的根目录下创建一个 .babelrc 的文件
+配置`.babelrc`，在项目的根目录下创建一个 .babelrc 的文件,也可以将以下内容添加到`babel.config.js`中，将`plugins`与`presets`并列
 ```js
 {
   "plugins": [
