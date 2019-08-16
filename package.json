@@ -1,6 +1,6 @@
 {
   "name": "xcom-components",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": false,
   "main": "./dist/xcom-components.common.js",
   "style": "./dist/xcom-components.css",
@@ -10,7 +10,7 @@
     "lint": "vue-cli-service lint",
     "build-bundle": "vue-cli-service build --target lib --name xcom-components ./src/components/index.js",
     "preversion": "npm config set tag-version-prefix xcom-components-v",
-    "postversion": "git push --follow-tags"    
+    "postversion": "git push --follow-tags"
   },
   "dependencies": {
     "core-js": "^2.6.5",
