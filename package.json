@@ -1,6 +1,6 @@
 {
   "name": "xcom-components",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "main": "./dist/xcom-components.common.js",
   "style": "./dist/xcom-components.css",
